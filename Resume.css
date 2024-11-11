@@ -1,4 +1,24 @@
-        h1 {
+body {
+	    background-color: black;
+            color: white;
+	    margin: 0;
+           }
+	a {
+	    color: DarkViolet;
+	}
+	a:visited {
+	    color: DarkGoldenRod;
+	}
+	a:hover {
+	    color: DarkGreen;
+	}
+	.button-container a:visited {
+   	    color: white;
+	}
+	.button-container a:hover {
+	    color: white;
+	}
+	h1 {
             text-align: center;
             font-family: times new roman;
             font-weight: bold;
@@ -96,24 +116,24 @@
             top: 0;
             padding: 3px;
             font-size: 12px;
+            background-color: black;
+            color: white;
+        }
+        div.sticky_contactinfo.light-mode {
             background-color: white;
             color: black;
         }
-        div.sticky_contactinfo.dark-mode {
-            background-color: black;
-            color: white;
-        }
-        .dark-mode {
-            background-color: black;
-            color: white;
+        .light-mode {
+            background-color: white;
+            color: black;
         }
         p3 {
             color: red;
             font-size: 15px;
         }
-        .darkmodebutton {
+        .lightmodebutton {
             display: flex;
-            background: #000000;
+            background: black;
             color: white;
             border-radius: 3px;
             font-family: times new roman;
@@ -125,7 +145,4 @@
 	.github-button:hover {opacity: 0.6}
         .download-button:hover {opacity: 0.6}
         }
-        body {
-            margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
-        }
+       
